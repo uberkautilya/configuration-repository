@@ -1,0 +1,11 @@
+app:
+  name: Configuration Repository accessed by Configuration Server
+  description: ${app.name} description
+list.values: One, Two, Three
+db_map.values: "{connectionString: 'config-server', userName: 'foo', password: 'pass'}"
+
+# @ConfigurationProperties annotated Configuration class will look up props starting with 'db'
+db:
+  connection: "{connectionstring:'configuration-repository', userName:'foo', password:'pass'}"
+  host: 127.0.0.1
+  port: 3600
