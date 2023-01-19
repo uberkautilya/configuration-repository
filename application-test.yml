@@ -9,3 +9,5 @@ db:
   connection: "{connectionstring:'test', userName:'foo', password:'pass'}"
   host: 127.0.0.1
   port: 4800
+my:
+  greeting: Hello test from config-server
