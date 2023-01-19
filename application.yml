@@ -1,7 +1,3 @@
-spring:
-  config:
-    activate:
-      on-profile: "test"
 app:
   name: Configuration Repository accessed by Configuration Server
   description: ${app.name} description
